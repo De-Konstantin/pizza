@@ -1,0 +1,61 @@
+<svg width="985" height="187" viewBox="0 0 985 187" fill="none" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+	<deft>
+		<filter id="goo">
+			<feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur"/>
+			<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 17 -7" result="goo"/>
+		</filter>
+	
+	</deft>
+
+<path id="path1" d="M866 132C866 207.111 628.816 149 504 149C379.184 149 0 100.111 0 25.0002C26 67.0002 544 -62.9998 466.5 43.0001C555.5 114.939 866 56.8893 866 132Z" fill="transparent"/>
+<path id="path2" d="M866 132C866 207.111 628.816 149 504 149C379.184 149 0 100.111 0 25.0002C26 67.0002 73.5 -63.9998 314 48.0001C351.5 100 866 56.8892 866 132Z" fill="transparent"/>
+<path id="path3" d="M866 132C866 207.111 628.816 149 504 149C379.184 149 -1.52588e-05 100.111 -1.52588e-05 25.0002C325 127.721 585 -21 553 65C642 136.938 866 56.8893 866 132Z" fill="transparent"/>
+<path id="path4" d="M871 127.404C871 202.515 641.816 162.449 517 162.449C392.184 162.449 13 113.56 13 38.4489C39 80.449 574 172.404 725 65.4044C810 38.4489 871 52.2937 871 127.404Z" fill="transparent"/>
+
+<g filter="url(#goo)">
+<circle r='20' fill="yellow">
+	<animateMotion dur="20s" repeatCount="indefinite">
+	<mpath xlink:href="#path"/>
+	</animateMotion>
+</circle>
+<circle r='10' fill="yellow">
+	<animateMotion dur="17s" repeatCount="indefinite">
+	<mpath xlink:href="#path1"/>
+	</animateMotion>
+</circle>
+<circle r='30' fill="yellow">
+	<animateMotion dur="7s" repeatCount="indefinite">
+	<mpath xlink:href="#path2"/>
+	</animateMotion>
+</circle>
+<circle r='15' fill="yellow">
+	<animateMotion dur="11s" repeatCount="indefinite">
+	<mpath xlink:href="#path3"/>
+	</animateMotion>
+</circle>
+<circle r='10' fill="yellow">
+	<animateMotion dur="27s" repeatCount="indefinite">
+	<mpath xlink:href="#path4"/>
+	</animateMotion>
+</circle>
+
+<path id="path" d="M866 132C866 207.111 628.816 149 504 149C379.184 149 -1.52588e-05 100.111 -1.52588e-05 25.0002C26 67.0002 824 174 716 83C578 -19 640 186.064 866 132Z" fill="#D9D9D9">
+<animate
+attributeName="d"
+dur="10s"
+repeatCount="indefinite"
+values="
+M866 132C866 207.111 628.816 149 504 149C379.184 149 -1.52588e-05 100.111 -1.52588e-05 25.0002C26 67.0002 824 174 716 83C578 -19 640 186.064 866 132Z;
+M866 132C866 207.111 628.816 149 504 149C379.184 149 0 100.111 0 25.0002C26 67.0002 544 -62.9998 466.5 43.0001C555.5 114.939 866 56.8893 866 132Z;
+M866 132C866 207.111 628.816 149 504 149C379.184 149 0 100.111 0 25.0002C26 67.0002 73.5 -63.9998 314 48.0001C351.5 100 866 56.8892 866 132Z;
+M866 132C866 207.111 628.816 149 504 149C379.184 149 -1.52588e-05 100.111 -1.52588e-05 25.0002C325 127.721 585 -21 553 65C642 136.938 866 56.8893 866 132Z;
+M871 127.404C871 202.515 641.816 162.449 517 162.449C392.184 162.449 13 113.56 13 38.4489C39 80.449 574 172.404 725 65.4044C810 38.4489 871 52.2937 871 127.404Z;
+M866 132C866 207.111 628.816 149 504 149C379.184 149 -1.52588e-05 100.111 -1.52588e-05 25.0002C26 67.0002 824 174 716 83C578 -19 640 186.064 866 132Z;
+
+"
+/>	
+
+</path>
+</g>
+</svg>
